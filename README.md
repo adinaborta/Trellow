@@ -42,4 +42,4 @@ Using pgadmin
   password: "password",
   port: "5432",
 2. Open Query Editor
-3. Copy and paste the 
+3. Copy and paste the scripts from INIT_POSTGRES.txt
