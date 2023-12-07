@@ -1,0 +1,340 @@
+{
+    "boards": [
+        {
+            "id": "1",
+            "title": "Board 1",
+            "image": "https://source.unsplash.com/featured/300x220",
+            "lists": [
+                {
+                    "id": "1",
+                    "boardId": "1",
+                    "title": "To do",
+                    "tasks": [
+                        {
+                            "id": "1",
+                            "listId": "1",
+                            "title": "De facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x201"
+                        },
+                        {
+                            "id": "2",
+                            "listId": "1",
+                            "title": "De facut treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x202"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "boardId": "1",
+                    "title": "In progress",
+                    "tasks": [
+                        {
+                            "id": "3",
+                            "listId": "2",
+                            "title": "Fac treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x203"
+                        },
+                        {
+                            "id": "4",
+                            "listId": "2",
+                            "title": "Fac treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x204"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "boardId": "1",
+                    "title": "Done",
+                    "tasks": [
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x205"
+                        },
+                        {
+                            "id": "6",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x206"
+                        }
+                    ]
+                },
+                {
+                    "id": "12",
+                    "boardId": "1",
+                    "title": "Done",
+                    "tasks": [
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x207"
+                        },
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x208"
+                        },
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x209"
+                        },
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x210"
+                        },
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x211"
+                        },
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x212"
+                        },
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x213"
+                        },
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x214"
+                        },
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x215"
+                        },
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x216"
+                        },
+                        {
+                            "id": "6",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x217"
+                        }
+                    ]
+                },
+                {
+                    "id": "11",
+                    "boardId": "1",
+                    "title": "Done",
+                    "tasks": [
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x218"
+                        },
+                        {
+                            "id": "6",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x219"
+                        }
+                    ]
+                },
+                {
+                    "id": "10",
+                    "boardId": "1",
+                    "title": "Done",
+                    "tasks": [
+                        {
+                            "id": "5",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": ""
+                        },
+                        {
+                            "id": "6",
+                            "listId": "3",
+                            "title": "Facut treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "title": "Board 2",
+            "image": "https://source.unsplash.com/featured/300x221",
+            "lists": [
+                {
+                    "id": "4",
+                    "boardId": "2",
+                    "title": "To do 2",
+                    "tasks": [
+                        {
+                            "id": "7",
+                            "listId": "4",
+                            "title": "De facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": ""
+                        },
+                        {
+                            "id": "8",
+                            "listId": "4",
+                            "title": "De facut treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "boardId": "2",
+                    "title": "In progress 2",
+                    "tasks": [
+                        {
+                            "id": "9",
+                            "listId": "5",
+                            "title": "Fac treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": ""
+                        },
+                        {
+                            "id": "10",
+                            "listId": "5",
+                            "title": "Fac treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "boardId": "2",
+                    "title": "Done 2",
+                    "tasks": [
+                        {
+                            "id": "11",
+                            "listId": "6",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": ""
+                        },
+                        {
+                            "id": "12",
+                            "listId": "6",
+                            "title": "Facut treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x220"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "title": "Board 3",
+            "image": "",
+            "lists": [
+                {
+                    "id": "4",
+                    "boardId": "2",
+                    "title": "To do 2",
+                    "tasks": [
+                        {
+                            "id": "7",
+                            "listId": "4",
+                            "title": "De facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": ""
+                        },
+                        {
+                            "id": "8",
+                            "listId": "4",
+                            "title": "De facut treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "5",
+                    "boardId": "2",
+                    "title": "In progress 2",
+                    "tasks": [
+                        {
+                            "id": "9",
+                            "listId": "5",
+                            "title": "Fac treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": ""
+                        },
+                        {
+                            "id": "10",
+                            "listId": "5",
+                            "title": "Fac treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": ""
+                        }
+                    ]
+                },
+                {
+                    "id": "6",
+                    "boardId": "2",
+                    "title": "Done 2",
+                    "tasks": [
+                        {
+                            "id": "11",
+                            "listId": "6",
+                            "title": "Facut treaba numarul 1",
+                            "content": "Treaba numarul 1 bla bla",
+                            "image": ""
+                        },
+                        {
+                            "id": "12",
+                            "listId": "6",
+                            "title": "Facut treaba numarul 2",
+                            "content": "Treaba numarul 2 bla bla",
+                            "image": "https://source.unsplash.com/featured/300x220"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

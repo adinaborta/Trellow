@@ -1,0 +1,141 @@
+/* Style the scrollbar track */
+.board::-webkit-scrollbar, .list::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+}
+
+/* Style the scrollbar handle */
+.board::-webkit-scrollbar-thumb, .list::-webkit-scrollbar-thumb  {
+    border-radius: 6px;
+    @apply bg-lowSatLavender
+}
+
+/* Style the scrollbar track on hover */
+.board::-webkit-scrollbar-track, .list::-webkit-scrollbar-track {
+    border-radius: 6px;
+    @apply bg-lightLavender;
+}
+
+.board {
+    height: 75vh;
+    @apply flex p-4 overflow-x-scroll;
+    scrollbar-width: thin;
+}
+
+.list {
+    @apply flex-none w-64 mr-4 bg-white rounded p-4 overflow-auto relative shadow-md;
+    scrollbar-width: thin;
+    max-height: 100%;
+    height: fit-content;
+}
+
+.list > *{
+    z-index: 1;
+    position: relative;
+}
+
+
+.listHeader {
+    @apply font-semibold;
+}
+
+.cardContainer {
+    @apply bg-white rounded p-2 mb-2 hover:shadow-md cursor-pointer;
+}
+
+.card {
+    background-color: #ffffff91;
+    @apply  rounded max-w-sm mb-4 cursor-pointer hover:scale-105 transition-all relative;
+}
+
+.galleryCard {
+    @apply max-w-xs;
+}
+
+.cardInfo {
+    @apply p-4;
+}
+
+.galleryCard .cardInfo {
+    @apply p-0 absolute bottom-0 text-white;
+}
+
+.cardTitle {
+    @apply  mb-2 font-semibold text-gray-800;
+}
+
+.galleryCard .cardTitle {
+    @apply text-white pl-2;
+}
+
+.cardContent {
+    @apply text-gray-700 text-sm;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cardImage {
+    align-items: center;
+    @apply rounded-t overflow-hidden max-h-20 flex;
+}
+
+.galleryCard .cardImage {
+    @apply rounded h-32 max-h-32 fill-neutral-700 bg-boardColors-lavender text-boardColors-lavender overflow-hidden;
+}
+
+
+.galleryCard .cardImage::after {
+    filter: brightness(0.9);
+    opacity: 0.9;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(transparent, currentColor);
+    @apply rounded
+}
+
+.boardsGallery{
+    @apply container mx-auto p-4 w-2/3
+}
+
+
+.editable-text::before{
+    outline: none;
+    border: none !important;
+}
+
+.editable-text{
+    @apply w-full
+}
+
+.editable-text::after{
+    outline: none;
+    border: none !important;
+}
+
+
+.editable-text-title{
+    @apply pb-4 text-2xl font-bold
+}
+
+.cardExtendedImage img{
+    @apply w-full object-cover h-40
+}
+
+.cardExtendedImage {
+    background-color: currentColor;
+}
+
+.cardExtendedImage::before{
+    content: "";
+    display: block;
+    width: 100%;
+    filter:brightness(0.1);
+    background: linear-gradient(currentColor, transparent 33%);
+    position: absolute;
+    opacity: 0.7;
+    /* z-index: 10; */
+    @apply h-40
+}
